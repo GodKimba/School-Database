@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{define "title"}}Home{{end}}</title>
+</head>
+<body>
+  {{template "base" .}}
+  <head>
+    <meta charset='utf-8'>
+  </head>
+  <header>
+    <h1><a href='/'>Snippetbox</a></h1>
+  </header>
+  <nav>
+    <a href="/">Home</a>
+  </nav>
+  <section>
+    {{define "body"}}
+    <h2>Latest Snippets</h2>
+    <p>There's nothing to see here yet!</p>{{end}}
+  </section>
+</body>
+</html>
